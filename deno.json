@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env --allow-read --allow-write src/main.ts",
+    "start": "deno run --allow-net --allow-env --allow-read --allow-write src/main.ts"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.0.0",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.0"
+  }
+}
